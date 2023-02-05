@@ -39,6 +39,6 @@ jobs:
       - run: pnpm install
       - run: pnpm package:build
       - run: cd package
-      - run: pnpm publish --publish-branch master
+      - run: pnpm publish --no-git-checks --dry-run
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_ACCESS_TOKEN}}
