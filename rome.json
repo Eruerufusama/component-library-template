@@ -1,0 +1,19 @@
+{
+    "formatter": {
+        "enabled": true,
+        "lineWidth": 115,
+        "indentSize": 4,
+        "indentStyle": "tab",
+        "formatWithErrors": false,
+        "ignore": []
+
+    },
+    "javascript": {
+        "formatter": {
+            "semicolons": "asNeeded",
+            "quoteStyle": "single",
+            "quoteProperties": "asNeeded",
+            "trailingComma": "all"
+        }
+    }
+}

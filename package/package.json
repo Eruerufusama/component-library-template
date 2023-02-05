@@ -1,0 +1,34 @@
+{
+  "name": "eru-component-lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@histoire/plugin-svelte": "^0.12.4",
+    "@iconify/json": "^2.2.16",
+    "@sveltejs/package": "^1.0.2",
+    "@sveltejs/vite-plugin-svelte": "^2.0.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "histoire": "^0.12.4",
+    "svelte": "^3.54.0",
+    "svelte-check": "^3.0.3",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "unplugin-icons": "^0.15.2",
+    "vite": "4.0.4"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./components/button/Button.css": "./components/button/Button.css",
+    "./components/card/card.css": "./components/card/card.css",
+    "./index.css": "./index.css",
+    "./tokens/color/Colors.css": "./tokens/color/Colors.css",
+    "./tokens/color/Themes.css": "./tokens/color/Themes.css",
+    "./tokens/font/FontFamilies.css": "./tokens/font/FontFamilies.css",
+    "./tokens/font/FontSizes.css": "./tokens/font/FontSizes.css",
+    "./tokens/spacing/MarginBlock.css": "./tokens/spacing/MarginBlock.css",
+    "./tokens/spacing/MarginInline.css": "./tokens/spacing/MarginInline.css",
+    "./tokens/spacing/PaddingBlock.css": "./tokens/spacing/PaddingBlock.css",
+    "./tokens/spacing/PaddingInline.css": "./tokens/spacing/PaddingInline.css"
+  }
+}

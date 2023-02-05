@@ -1,0 +1,11 @@
+:where(html) {
+    --padding-block-0: 0;
+    --padding-block-1: 2px;
+    --padding-block-2: 4px;
+    --padding-block-3: 8px;
+    --padding-block-4: 16px;
+    --padding-block-5: 24px;
+    --padding-block-6: 32px;
+    --padding-block-7: 80px;
+    --padding-block-8: 160px;
+}
