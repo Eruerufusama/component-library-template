@@ -1,7 +1,7 @@
 {
   "name": "eru-component-lib",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "story:dev": "histoire dev",
