@@ -23,7 +23,7 @@ jobs:
       - run: 'pnpm install'
 
   publish-npm:
-    needs: 'build'
+    needs: 'run-tests'
     runs-on: 'ubuntu-latest'
     steps:
       - uses: 'actions/checkout@v3'
