@@ -8,7 +8,7 @@
     "story:build": "histoire build",
     "story:preview": "histoire preview",
     "package:build": "svelte-package",
-    "postcss:compile": "postcss package/**/*.css --replace --no-map"
+    "compile-css": "postcss package/**/*.css --replace --no-map"
   },
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.12.4",
