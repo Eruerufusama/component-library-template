@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Publish package to NPM
 
 on:
   release:
@@ -38,6 +38,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: pnpm install
       - run: pnpm package:build
+      - run: pnpm postcss:compile
       - run: cd package
       - run: pnpm publish --no-git-checks --dry-run
         env:
