@@ -10,6 +10,7 @@ specifiers:
   histoire: ^0.12.4
   postcss: ^8.4.21
   postcss-cli: ^10.1.0
+  postcss-nested: ^6.0.0
   postcss-preset-env: ^8.0.1
   svelte: ^3.54.0
   svelte-check: ^3.0.3
@@ -28,6 +29,7 @@ devDependencies:
   histoire: 0.12.4_vite@4.0.4
   postcss: 8.4.21
   postcss-cli: 10.1.0_postcss@8.4.21
+  postcss-nested: 6.0.0_postcss@8.4.21
   postcss-preset-env: 8.0.1_postcss@8.4.21
   svelte: 3.55.1
   svelte-check: 3.0.3_pehl75e5jsy22vp33udjja4soi
@@ -2298,6 +2300,16 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.21
+    dev: true
+
+  /postcss-nested/6.0.0_postcss@8.4.21:
+    resolution: {integrity: sha512-0DkamqrPcmkBDsLn+vQDIrtkSbNkv5AD/M322ySo9kqFkCIYklym2xEmWkwo+Y3/qZo34tzEPNUw4y7yMCdv5w==}
+    engines: {node: '>=12.0'}
+    peerDependencies:
+      postcss: ^8.2.14
+    dependencies:
+      postcss: 8.4.21
+      postcss-selector-parser: 6.0.11
     dev: true
 
   /postcss-nesting/11.1.0_postcss@8.4.21:

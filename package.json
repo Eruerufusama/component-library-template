@@ -1,6 +1,6 @@
 {
   "name": "@eruerufu/component-library",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "type": "module",
   "scripts": {
     "story:dev": "histoire dev",
@@ -19,6 +19,7 @@
     "histoire": "^0.12.4",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.0",
     "postcss-preset-env": "^8.0.1",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.3",
