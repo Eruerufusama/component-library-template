@@ -3,7 +3,7 @@ BLUE='\033[1;34m'
 NC='\033[0m'
 
 echo "Transpiling css-files in ./$1. (Minifying, applying vendor prefixes, and lowering syntax)"
-echo "See <broserlist> to modify browser targets."
+echo "See <broswerslist> to modify browser targets."
 
 for file in $(find ./$1 -type f -name "*.css"); do
     filepath=$(dirname "$file")
