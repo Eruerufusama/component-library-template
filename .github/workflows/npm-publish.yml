@@ -38,7 +38,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - run: 'pnpm install'
       - run: 'pnpm package:build'
-      - run: 'pnpm compile-css'
+      - run: 'bash convert-css.sh package'
       - run: 'cd package'
       - run: 'pnpm publish --no-git-checks --access=public'
         env:
