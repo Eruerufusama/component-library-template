@@ -15,7 +15,7 @@
     accent-color: var(--color-accent);
 }
 .theme-success {
-    --color-primary: var(--green-99);
+    --color-primary: var(--green-9);
     --color-neutral: var(--green-3);
     --color-accent: var(--green-7);
     background-color: var(--color-primary);
