@@ -65,3 +65,21 @@ Under the `name` property in `package.json`, replace `[YOUR_ACCOUNT_NAME]` with 
 3. Push your changes to Github.
 4. Create a new release on Github, with the version number you just updated in `package.json` as the tag.
 5. Wait for the pipeline to finish, and your library will be published to NPM.
+
+## Q/A
+
+### Why is this template using `pnpm`?
+
+> It's just a bit faster, a bit more reliable, and uses less disk-space than npm. I don't really see a reason to not use it.
+
+### Why is it using `Histoire` instead of `Storybook`?
+
+> I found that configuring Storybook to work with Svelte was a bit of a hassle, and Histoire is just a bit easier to set up. I've also found it to be very enjoyable to work with.
+
+### `LightningCSS`? Why not just `PostCSS`?
+
+> LightningCSS is a bit more straightforward and more opinionated than PostCSS. The most useful plugins that is used in conjunction with PostCSS is `autoprefixer`, `postcss-preset-env`, and `postcss-nesting`, which are all present in LightningCSS as well.
+>
+> The future-css featuring in LightningCSS is quite a bit more mature than the one found in `postcss-preset-env`.
+>
+> Unfortunately, any performance-gains from using LightningCSS is lost by having to spin up an instance of LightningCSS for each CLI-command in the CI-pipeline, since the LightningCSS CLI tool currently doesn't support folder-conversion...
