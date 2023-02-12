@@ -1,5 +1,7 @@
 # Svelte Library Template
 
+A highly opinionated template for developing Svelte libraries with Typescript, Vite, Histoire, and LightningCSS.
+
 This template is still a work in progress, and is not ready for production use.
 
 ## Features needed before release
