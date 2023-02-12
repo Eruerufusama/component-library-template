@@ -25,26 +25,20 @@ This template is still a work in progress, and is not ready for production use.
 
 ## Setup dev-environment from this template
 
-### 1. **Create a new repository from this template**
+1. **Create an instance of the template** by pressing the green `Use this template` button on the top of this page.
 
-Press the green `Use this template` button on the top of this page.
+2. **Clone the repository** you created to your local machine
+   1. Press the green `Code` button on the top of your repository page, and copy the `HTTPS` link.
 
-### 2. **Clone the repository you created to your local machine**
+        > Alternatively, you can use SSH, but you will need to set up SSH-keys on your machine.
 
-1. Press the green `Code` button on the top of your repository page, and copy the link.
-2. Run `git clone [YOUR_REPO_LINK]` in your terminal.
+   2. Run `git clone [YOUR_REPO_LINK]` in your terminal.
 
-### **3. Install `pnpm` globally**
+3. **Install pnpm** by running `npm install -g pnpm`
 
-`npm install -g pnpm`
+4. **Install dependencies** with `pnpm install`
 
-### 4. **Install dependencies**
-
-`pnpm install`
-
-### 5. **Run the dev-server**
-
-`pnpm story:dev`
+5. **Run the dev-server** with `pnpm story:dev`
 
 Now you can start developing your library.
 
