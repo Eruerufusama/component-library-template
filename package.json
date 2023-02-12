@@ -1,13 +1,12 @@
 {
-  "name": "@eruerufu/component-library",
-  "version": "0.0.18",
+  "name": "@[YOUR_ACCOUNT_NAME]/[YOUR_PACKAGE_NAME]",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
-    "package:build": "svelte-package",
-    "compile-css": "postcss package/**/*.css --replace --no-map"
+    "package:build": "svelte-package"
   },
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.12.4",
