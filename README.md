@@ -1,5 +1,16 @@
 # Svelte Library Template
 
+This template is still a work in progress, and is not ready for production use.
+
+## Features needed before release
+
+- [x] Svelte library development environment with Vite and Typescript.
+- [x] Story development environment with Histoire.
+- [x] CI/CD pipeline for publishing to NPM.
+- [ ] Unit-testing setup with Vitest.
+
+> This column is to be removed before release.
+
 ## Learn more about the tools used in this template
 ___
 
