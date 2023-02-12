@@ -25,11 +25,11 @@ This template is still a work in progress, and is not ready for production use.
 
 ## Setup dev-environment from this template
 
-### **Create a new repository from this template**
+### 1. **Create a new repository from this template**
 
 Press the green `Use this template` button on the top of this page.
 
-### **Clone the repository you created to your local machine**
+### 2. **Clone the repository you created to your local machine**
 
 1. Press the green `Code` button on the top of your repository page, and copy the link.
 2. Run `git clone [YOUR_REPO_LINK]` in your terminal.
