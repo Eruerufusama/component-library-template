@@ -8,7 +8,7 @@ This template is still a work in progress, and is not ready for production use.
 - [x] Story development environment with Histoire.
 - [x] CI/CD pipeline for publishing to NPM.
 - [ ] Unit-testing setup with Vitest.
-- [ ] More exemplary components.
+- [ ] Improve quality of example library.
 - [ ] Create a `CHANGELOG.md` file.
 
 > This column is to be removed before release.
