@@ -8,6 +8,7 @@ This template is still a work in progress, and is not ready for production use.
 - [x] Story development environment with Histoire.
 - [x] CI/CD pipeline for publishing to NPM.
 - [ ] Unit-testing setup with Vitest.
+- [ ] More exemplary components.
 
 > This column is to be removed before release.
 
@@ -61,7 +62,7 @@ Go to your Github repository > `Settings` > `Secrets` > `New repository secret`.
 Under the `name` property in `package.json`, replace `[YOUR_ACCOUNT_NAME]` with your account-name, and `[YOUR_LIBRARY_NAME]` with your library name. (Also remove the brackets)
 
 ___
-## Creating a release
+## Creating a new release of your library
 ___
 
 1. Make some changes to your library, and commit them.
