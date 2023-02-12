@@ -79,6 +79,24 @@
             </div>
         </section>
     </Hst.Variant>
+    <Hst.Variant title="Warning theme">
+        <section class="theme-warning">
+            <div class="colors">
+                <div class="color primary"></div>
+                <div class="color neutral"></div>
+                <div class="color accent"></div>
+            </div>
+            <div class="example">
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cum distinctio accusantium, possimus dolores vitae ipsa impedit quaerat. Earum, sit?</p>
+                <label>
+                    Checkbox
+                    <input type="checkbox" checked>
+                </label>
+                <button>Submit</button>
+            </div>
+        </section>
+    </Hst.Variant>
 </Hst.Story>
 
 

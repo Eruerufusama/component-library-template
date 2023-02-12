@@ -17,8 +17,9 @@
                 <select bind:value={theme}>
                     <option value="default">Default</option>
                     <option value="danger">Danger</option>
-                    <option value="success">Success</option>
                     <option value="info">Info</option>
+                    <option value="success">Success</option>
+                    <option value="warning">Warning</option>
                 </select>
             </label>
             <label>
