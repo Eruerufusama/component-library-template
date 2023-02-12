@@ -8,7 +8,8 @@ This template is still a work in progress, and is not ready for production use.
 
 - [x] Svelte library development environment with Vite and Typescript.
 - [x] Story development environment with Histoire.
-- [x] CI/CD pipeline for publishing to NPM.
+- [x] CI/CD pipeline for publishing package to NPM.
+- [ ] CI/CD pipeline for publishing Stories to Github Pages.
 - [ ] Unit-testing setup with Vitest.
 - [ ] Improve quality of example library.
 - [ ] Create a `CHANGELOG.md` file.
