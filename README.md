@@ -12,6 +12,7 @@ This template is still a work in progress, and is not ready for production use.
 - [ ] Unit-testing setup with Vitest.
 - [ ] Improve quality of example library.
 - [ ] Create a `CHANGELOG.md` file.
+- [ ] Set up formating and linting with `eslint` and `prettier`. Remove `rome`-support.
 
 > This column is to be removed before release.
 
