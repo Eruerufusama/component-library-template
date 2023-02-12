@@ -1,4 +1,4 @@
-# Svelte Library Template
+# Svelte Library Template (WIP)
 
 A highly opinionated template for developing Svelte libraries with Typescript, Vite, Histoire, and LightningCSS.
 
