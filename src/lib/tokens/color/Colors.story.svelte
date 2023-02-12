@@ -59,6 +59,19 @@
             <div class="red-9"></div>
         </section>
     </Hst.Variant>
+    <Hst.Variant title="Yellow">
+        <section>
+            <div class="yellow-1"></div>
+            <div class="yellow-2"></div>
+            <div class="yellow-3"></div>
+            <div class="yellow-4"></div>
+            <div class="yellow-5"></div>
+            <div class="yellow-6"></div>
+            <div class="yellow-7"></div>
+            <div class="yellow-8"></div>
+            <div class="yellow-9"></div>
+        </section>
+    </Hst.Variant>
 </Hst.Story>
 
 <style>
@@ -109,4 +122,14 @@
     .red-7 { background-color: var(--red-7); }
     .red-8 { background-color: var(--red-8); }
     .red-9 { background-color: var(--red-9); }
+
+    .yellow-1 { background-color: var(--yellow-1); }
+    .yellow-2 { background-color: var(--yellow-2); }
+    .yellow-3 { background-color: var(--yellow-3); }
+    .yellow-4 { background-color: var(--yellow-4); }
+    .yellow-5 { background-color: var(--yellow-5); }
+    .yellow-6 { background-color: var(--yellow-6); }
+    .yellow-7 { background-color: var(--yellow-7); }
+    .yellow-8 { background-color: var(--yellow-8); }
+    .yellow-9 { background-color: var(--yellow-9); }
 </style>
