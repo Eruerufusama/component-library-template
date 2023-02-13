@@ -10,7 +10,7 @@ This template is still a work in progress, and is not ready for production use.
 - [x] Story development environment with Histoire.
 - [x] CI/CD pipeline for publishing package to NPM.
 - [ ] CI/CD pipeline for publishing Stories to Github Pages.
-- [ ] Unit-testing setup with Vitest.
+- [x] Unit-testing setup with Vitest.
 - [ ] Improve quality of example library.
 - [ ] Create a `CHANGELOG.md` file.
 - [ ] Set up formating and linting with `eslint` and `prettier`. Remove `rome`-support.
