@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Hst } from '@histoire/plugin-svelte'
-    import type { Theme } from '../../tokens/color/Themes.types';
+    import type { Theme } from '@lib/tokens/color/Themes.types';
 
     import Heading from './Heading.svelte';
     export let Hst: Hst
