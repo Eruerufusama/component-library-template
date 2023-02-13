@@ -6,6 +6,9 @@
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
+    "test:headless": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
     "package:build": "svelte-package"
   },
   "devDependencies": {
@@ -14,7 +17,9 @@
     "@sveltejs/package": "^1.0.2",
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
+    "@vitest/ui": "^0.28.5",
     "histoire": "^0.12.4",
+    "jsdom": "^21.1.0",
     "lightningcss": "^1.18.0",
     "lightningcss-cli": "^1.18.0",
     "postcss": "^8.4.21",

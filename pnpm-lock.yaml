@@ -6,7 +6,9 @@ specifiers:
   '@sveltejs/package': ^1.0.2
   '@sveltejs/vite-plugin-svelte': ^2.0.2
   '@tsconfig/svelte': ^3.0.0
+  '@vitest/ui': ^0.28.5
   histoire: ^0.12.4
+  jsdom: ^21.1.0
   lightningcss: ^1.18.0
   lightningcss-cli: ^1.18.0
   postcss: ^8.4.21
@@ -26,7 +28,9 @@ devDependencies:
   '@sveltejs/package': 1.0.2_4x7phaipmicbaooxtnresslofa
   '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.0.4
   '@tsconfig/svelte': 3.0.0
+  '@vitest/ui': 0.28.5
   histoire: 0.12.4_vite@4.0.4
+  jsdom: 21.1.0
   lightningcss: 1.18.0
   lightningcss-cli: 1.18.0
   postcss: 8.4.21
@@ -38,7 +42,7 @@ devDependencies:
   unplugin-icons: 0.15.2
   vite: 4.0.4
   vite-plugin-lightningcss: 0.0.3
-  vitest: 0.28.4
+  vitest: 0.28.4_itn5mhdgoxdt6nk7zeh5bmcq5a
 
 packages:
 
@@ -616,6 +620,16 @@ packages:
       tinyspy: 1.1.1
     dev: true
 
+  /@vitest/ui/0.28.5:
+    resolution: {integrity: sha512-hzzZzv38mH/LMFh54QEJpWFuGixZZBOD+C0fHU81d1lsvochPwNZhWJbuRJQNyZLSMZYCYW4hF6PpNQJXDHDmg==}
+    dependencies:
+      fast-glob: 3.2.12
+      flatted: 3.2.7
+      pathe: 1.1.0
+      picocolors: 1.0.0
+      sirv: 2.0.2
+    dev: true
+
   /@vitest/utils/0.28.4:
     resolution: {integrity: sha512-l2QztOLdc2LkR+w/lP52RGh8hW+Ul4KESmCAgVE8q737I7e7bQoAfkARKpkPJ4JQtGpwW4deqlj1732VZD7TFw==}
     dependencies:
@@ -1175,6 +1189,10 @@ packages:
       path-exists: 4.0.0
     dev: true
 
+  /flatted/3.2.7:
+    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+    dev: true
+
   /flexsearch/0.7.21:
     resolution: {integrity: sha512-W7cHV7Hrwjid6lWmy0IhsWDFQboWSng25U3VVywpHOTJnnAZNPScog67G+cVpeX9f7yDD21ih0WDrMMT+JoaYg==}
     dev: true
@@ -1462,6 +1480,47 @@ packages:
 
   /jsdom/20.0.3:
     resolution: {integrity: sha512-SYhBvTh89tTfCD/CRdSOm13mOBa42iTaTyfyEWBdKcGdPxPtLFBXuHR8XHb33YNYaP+lLbmSvBTsnoesCNJEsQ==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      canvas: ^2.5.0
+    peerDependenciesMeta:
+      canvas:
+        optional: true
+    dependencies:
+      abab: 2.0.6
+      acorn: 8.8.2
+      acorn-globals: 7.0.1
+      cssom: 0.5.0
+      cssstyle: 2.3.0
+      data-urls: 3.0.2
+      decimal.js: 10.4.3
+      domexception: 4.0.0
+      escodegen: 2.0.0
+      form-data: 4.0.0
+      html-encoding-sniffer: 3.0.0
+      http-proxy-agent: 5.0.0
+      https-proxy-agent: 5.0.1
+      is-potential-custom-element-name: 1.0.1
+      nwsapi: 2.2.2
+      parse5: 7.1.2
+      saxes: 6.0.0
+      symbol-tree: 3.2.4
+      tough-cookie: 4.1.2
+      w3c-xmlserializer: 4.0.0
+      webidl-conversions: 7.0.0
+      whatwg-encoding: 2.0.0
+      whatwg-mimetype: 3.0.0
+      whatwg-url: 11.0.0
+      ws: 8.12.0
+      xml-name-validator: 4.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: true
+
+  /jsdom/21.1.0:
+    resolution: {integrity: sha512-m0lzlP7qOtthD918nenK3hdItSd2I+V3W9IrBcB36sqDwG+KnUs66IF5GY7laGWUnlM9vTsD0W1QwSEBYWWcJg==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -2779,7 +2838,7 @@ packages:
       vite: 4.0.4
     dev: true
 
-  /vitest/0.28.4:
+  /vitest/0.28.4_itn5mhdgoxdt6nk7zeh5bmcq5a:
     resolution: {integrity: sha512-sfWIy0AdlbyGRhunm+TLQEJrFH9XuRPdApfubsyLcDbCRrUX717BRQKInTgzEfyl2Ipi1HWoHB84Nqtcwxogcg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -2807,12 +2866,14 @@ packages:
       '@vitest/expect': 0.28.4
       '@vitest/runner': 0.28.4
       '@vitest/spy': 0.28.4
+      '@vitest/ui': 0.28.5
       '@vitest/utils': 0.28.4
       acorn: 8.8.2
       acorn-walk: 8.2.0
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
+      jsdom: 21.1.0
       local-pkg: 0.4.3
       pathe: 1.1.0
       picocolors: 1.0.0
