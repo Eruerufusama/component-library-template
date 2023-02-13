@@ -10,10 +10,11 @@ export default defineConfig({
 		svelte(),
 		Icons({ compiler: 'svelte' }),
 		lightningcss({ browserslist: ['last 2 versions', '> 0.2% in alt-EU', 'not dead'] }),
+
 	],
 	resolve: {
 		alias: {
 			'@lib': resolve(__dirname, './src/lib'),
 		}
-	}
+	},
 })
