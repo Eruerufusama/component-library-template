@@ -18,7 +18,8 @@ This template is still a work in progress, and is not ready for production use.
 > This column is to be removed before release.
 
 ## Potential future features
-- CLI tooling for selecting different technologies? (Svelte/Vue, Typescript/Javascript, Storybook/Histoire, PostCSS/LightningCSS, etc.)
+
+- CLI tooling for selecting different technologies? (Svelte/Vue, Typescript/Javascript, Storybook/Histoire, PostCSS/LightningCSS, npm/pnpm/yarn, etc.)
 
    While having this as a template is nice, the technology-stack is quite opinionated, and it would be nice to have a CLI tool that can generate a template with the technology-stack of your choice.
 
