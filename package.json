@@ -1,6 +1,6 @@
 {
   "name": "@[YOUR_ACCOUNT_NAME]/[YOUR_PACKAGE_NAME]",
-  "version": "0.0.1",
+  "version": "0.0.0-semantic-release",
   "type": "module",
   "scripts": {
     "story:dev": "histoire dev",
@@ -15,6 +15,8 @@
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.12.4",
     "@iconify/json": "^2.2.16",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
     "@sveltejs/package": "^1.0.2",
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
     "@tsconfig/svelte": "^3.0.0",
@@ -25,6 +27,7 @@
     "lightningcss-cli": "^1.18.0",
     "postcss": "^8.4.21",
     "rome": "^11.0.0",
+    "semantic-release": "^20.1.0",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.3",
     "tslib": "^2.4.1",

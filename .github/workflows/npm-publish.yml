@@ -1,8 +1,8 @@
 name: 'Publish package to NPM'
 
 on:
-  release:
-    types: ['created']
+  push:
+    branches: [main, beta]
 
 jobs:
   run-tests:
@@ -20,26 +20,48 @@ jobs:
         with:
           node-version: '${{ matrix.node-version }}'
           cache: 'pnpm'
-      - run: 'pnpm install'
 
-  publish-npm:
+      - name: 'Install packages'
+        run: 'pnpm install'
+
+      - name: 'Run tests'
+        run: 'pnpm test:headless'
+
+  release:
+    name: 'Release package'
     needs: 'run-tests'
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: 'actions/checkout@v3'
+      - name: 'Checkout repository'
+        uses: 'actions/checkout@v3'
+
       - uses: 'pnpm/action-setup@v2'
         with:
           version: 7
+
       - name: 'Use Node.js ${{ matrix.node-version }}'
         uses: 'actions/setup-node@v3'
         with:
           node-version: '${{ matrix.node-version }}'
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org/'
-      - run: 'pnpm install'
-      - run: 'pnpm package:build'
-      - run: 'bash convert-css.sh package'
+
+      - name: 'Install project-packages'
+        run: 'pnpm install'
+
+      - name: 'Install CI-packages'
+        run: 'pnpm add -D @semantic-release/changelog @semantic-release/git'
+
+      - name: 'Prepare package'
+        run: 'pnpm package:build'
+
+      - name: 'CSS pre-processing'
+        run: 'bash convert-css.sh package'
+
       - run: 'cd package'
-      - run: 'pnpm publish --no-git-checks --access=public'
+
+      - name: 'Publish package and manage versioning'
+        run: 'pnpm exec semantic-release'
         env:
           NODE_AUTH_TOKEN: '${{secrets.NPM_ACCESS_TOKEN}}'
+          GITHUB_AUTH_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
