@@ -9,7 +9,8 @@
     "test:headless": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "package:build": "svelte-package"
+    "package:build": "svelte-package",
+    "release": "release-it"
   },
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.12.4",
@@ -23,6 +24,7 @@
     "lightningcss": "^1.18.0",
     "lightningcss-cli": "^1.18.0",
     "postcss": "^8.4.21",
+    "release-it": "^15.6.0",
     "rome": "^11.0.0",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.3",
