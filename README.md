@@ -73,7 +73,11 @@ Under the `repository` property in `package.json`, replace `[GITHUB_USERNAME]` w
 - [Typescript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [pnpm](https://pnpm.io/)
-- [Histoire](histoire.dev)
+- [Histoire](https://histoire.dev)
 - [LightningCSS](https://lightningcss.dev/)
 - [Vitest](https://vitest.dev/)
 - [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
+
+## Configuration
+
+- `browserlist` - Configures target browsers for CSS-transpilation.
