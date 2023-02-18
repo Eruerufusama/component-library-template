@@ -7,11 +7,9 @@ on:
 jobs:
   run-tests:
     runs-on: 'ubuntu-latest'
-    strategy:
-      matrix:
-        node-version: [16]
     steps:
       - uses: 'actions/checkout@v3'
+
       - uses: 'pnpm/action-setup@v2'
         with:
           version: 7
