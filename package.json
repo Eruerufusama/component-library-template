@@ -1,7 +1,16 @@
 {
-  "name": "@[YOUR_ACCOUNT_NAME]/[YOUR_PACKAGE_NAME]",
+  "name": "@[NPM_ACCOUNT_NAME]/[NPM_PACKAGE_NAME]",
   "version": "0.0.0-semantic-release",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[GITHUB_ACCOUNT_NAME]/[GITHUB_REPOSITORY_NAME].git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "scripts": {
     "story:dev": "histoire dev",
     "story:build": "histoire build",
