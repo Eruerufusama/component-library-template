@@ -2,7 +2,7 @@ name: 'Publish package to NPM'
 
 on:
   push:
-    branches: [main, beta]
+    branches: [master]
 
 jobs:
   run-tests:
