@@ -18,8 +18,7 @@
     "test:headless": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
-    "package:build": "svelte-package",
-    "release": "release-it"
+    "package:build": "svelte-package"
   },
   "devDependencies": {
     "@histoire/plugin-svelte": "^0.12.4",
