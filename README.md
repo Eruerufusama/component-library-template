@@ -1,37 +1,17 @@
-# Svelte Library Template (WIP)
+# Opinionated template for creating Svelte libraries
 
-A highly opinionated template for developing Svelte libraries with Typescript, Vite, Histoire, and LightningCSS.
+A highly opinionated template for getting started with developing a component/branding library, with minimal configuration on your part.
 
-This template is still a work in progress, and is not ready for production use.
-
-## Features needed before release
-
-- [x] Svelte library development environment with Vite and Typescript.
-- [x] Story development environment with Histoire.
-- [x] CI/CD pipeline for publishing package to NPM.
-- [ ] CI/CD pipeline for publishing Stories to Github Pages.
-- [x] Unit-testing setup with Vitest.
-- [ ] Improve quality of example library.
-- [ ] Create a `CHANGELOG.md` file.
-- [ ] Set up formating and linting with `eslint` and `prettier`. Remove `rome`-support.
-
-> This column is to be removed before release.
-
-## Potential future features
-
-- CLI tooling for selecting different technologies? (Svelte/Vue, Typescript/Javascript, Storybook/Histoire, PostCSS/LightningCSS, npm/pnpm/yarn, etc.)
-
-   While having this as a template is nice, the technology-stack is quite opinionated, and it would be nice to have a CLI tool that can generate a template with the technology-stack of your choice.
-
-## Learn more about the tools used in this template
-
-- [Svelte](https://svelte.dev/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-- [pnpm](https://pnpm.io/)
-- [Histoire](histoire.dev)
-- [LightningCSS](https://lightningcss.dev/)
-<!-- - [Vitest](https://vitest.dev/) -->
+## Features
+- CI pipeline that handles:
+  - Creating a new release on Github.
+  - Automatic `CHANGELOG.md` creation derived from commit-messages.
+  - Running tests.
+  - Pre-processing CSS.
+  - Publishing to NPM.
+- Unit-testing with Vitest.
+- Story-creation with Histoire.
+- Creation of Svelte, CSS, or Typescript/Javascript components.
 
 ## Setup dev-environment from this template
 
@@ -64,30 +44,35 @@ Go to your Github repository > `Settings` > `Secrets` > `New repository secret`.
 
 ### 2. **Rename the library**
 
-Under the `name` property in `package.json`, replace `[YOUR_ACCOUNT_NAME]` with your account-name, and `[YOUR_LIBRARY_NAME]` with your library name. (Also remove the brackets)
+Under the `name` property in `package.json`, replace `[NPM_ACCOUNT_NAME]` with your npm account-name, and `[NPM_PACKAGE_NAME]` with your library name. (Also remove the brackets)
+
+### 3. **Tell semantic release what repository to use**
+
+Under the `repository` property in `package.json`, replace `[GITHUB_USERNAME]` with your Github username, and `[GITHUB_REPOSITORY_NAME]` with the name of your Github repository. (Also remove the brackets)
 
 ## Creating a new release of your library
 
-1. Make some changes to your library, and commit them.
-2. Update the version number in `package.json` (following [semver](https://semver.org/))
-3. Push your changes to Github.
-4. Create a new release on Github, with the version number you just updated in `package.json` as the tag.
-5. Wait for the pipeline to finish, and your library will be published to NPM.
+1. Create a new branch for your release.
+2. Make your changes.
+3. When commiting your changes, be sure to format your commit-message according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). This is needed for semantic-release to be able to create a new release.
 
-## Q/A
+   > For example, if you are adding a new feature, your commit-message should be
+   >
+   > `feat: [my new cool feature]`
 
-### Why is this template using `pnpm`?
+   Alternatively, you can use a CLI wizard like [commitizen](https://commitizen-tools.github.io/commitizen/) to help you format your commit-messages.
 
-> It's just a bit faster, a bit more reliable, and uses less disk-space than npm. I don't really see a reason to not use it.
+4. Push your changes to Github.
+5. Create a pull-request to merge your changes into the `master` branch.
+6. Once you have merged your changes into the `master` branch, a new release will be created automatically, once the pipeline has finished running.
 
-### Why is it using `Histoire` instead of `Storybook`?
+## Learn more about the tools used in this template
 
-> I found that configuring Storybook to work with Svelte was a bit of a hassle, and Histoire is just a bit easier to set up. I've also found it to be very enjoyable to work with.
-
-### `LightningCSS`? Why not just `PostCSS`?
-
-> LightningCSS is a bit more straightforward and more opinionated than PostCSS. The most useful plugins that is used in conjunction with PostCSS is `autoprefixer`, `postcss-preset-env`, and `postcss-nesting`, which are all present in LightningCSS as well.
->
-> The future-css featuring in LightningCSS is quite a bit more mature than the one found in `postcss-preset-env`.
->
-> Unfortunately, any performance-gains from using LightningCSS is lost by having to spin up an instance of LightningCSS for each CLI-command in the CI-pipeline, since the LightningCSS CLI tool currently doesn't support folder-conversion...
+- [Svelte](https://svelte.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [pnpm](https://pnpm.io/)
+- [Histoire](histoire.dev)
+- [LightningCSS](https://lightningcss.dev/)
+- [Vitest](https://vitest.dev/)
+- [Semantic Release](https://semantic-release.gitbook.io/semantic-release/)
