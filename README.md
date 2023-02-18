@@ -3,6 +3,7 @@
 A highly opinionated template for getting started with developing a component/branding library, with minimal configuration on your part.
 
 ## Features
+
 - CI pipeline that handles:
   - Creating a new release on Github.
   - Automatic `CHANGELOG.md` creation derived from commit-messages.
@@ -11,7 +12,7 @@ A highly opinionated template for getting started with developing a component/br
   - Publishing to NPM.
 - Unit-testing with Vitest.
 - Story-creation with Histoire.
-- Creation of Svelte, CSS, or Typescript/Javascript components.
+- Example CSS-tokens and utility-classes.
 
 ## Setup dev-environment from this template
 
