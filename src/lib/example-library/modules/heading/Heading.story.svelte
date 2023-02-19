@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Hst } from '@histoire/plugin-svelte'
-    import type { Theme } from '@lib/tokens/color/Themes.types';
+    import type { Theme } from '@lib/example-library/tokens/color/Themes.types'
 
     import Heading from './Heading.svelte';
     export let Hst: Hst
@@ -9,7 +9,7 @@
 </script>
 
 <Hst.Story
-    title="Modules/Heading"
+    title="Example Library/Modules/Heading"
     layout={{ type: 'grid', width: '100%' }}
 >
     <Hst.Variant>

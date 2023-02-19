@@ -7,7 +7,7 @@
 </script>
 
 <Hst.Story
-    title="Components/Button"
+    title="Example Library/Components/Button"
     layout={{ type: 'grid' }}
 >
     <svelte:fragment slot="controls">

@@ -4,7 +4,7 @@
 </script>
 
 <Hst.Story
-    title="Design tokens/Colors"
+    title="Example Library/Design tokens/Colors"
     layout={{ type: 'grid' }}
 >
     <Hst.Variant title="Grey">

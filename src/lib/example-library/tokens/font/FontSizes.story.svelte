@@ -4,7 +4,7 @@
 </script>
 
 <Hst.Story
-	title="Design tokens/Font sizes"
+	title="Example Library/Design tokens/Font sizes"
 	layout={{ type: 'grid', width: '100%' }}
 >
     <Hst.Variant title="Small text">

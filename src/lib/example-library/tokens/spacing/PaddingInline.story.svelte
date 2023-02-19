@@ -4,58 +4,58 @@
 </script>
 
 <Hst.Story
-    title="Design tokens/Paddings (block)"
+    title="Example Library/Design tokens/Margins (inline)"
     layout={{ type: 'grid', width: '100%' }}
 >
     <Hst.Variant title="No padding">
         <div class="container">
-        	<div class="m padding-block-0">Lorem ibsum.</div>
+        	<div class="m padding-inline-0">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Tiny padding">
 		<div class="container">
-        	<div class="m padding-block-1">Lorem ibsum.</div>
+        	<div class="m padding-inline-1">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Very small padding">
         <div class="container">
-        	<div class="m padding-block-2">Lorem ibsum.</div>
+        	<div class="m padding-inline-2">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Small padding">
         <div class="container">
-        	<div class="m padding-block-3">Lorem ibsum.</div>
+        	<div class="m padding-inline-3">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Default padding">
         <div class="container">
-        	<div class="m padding-block-4">Lorem ibsum.</div>
+        	<div class="m padding-inline-4">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Medium padding">
         <div class="container">
-        	<div class="m padding-block-5">Lorem ibsum.</div>
+        	<div class="m padding-inline-5">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Large padding">
         <div class="container">
-        	<div class="m padding-block-6">Lorem ibsum.</div>
+        	<div class="m padding-inline-6">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Very large padding">
         <div class="container">
-        	<div class="m padding-block-7">Lorem ibsum.</div>
+        	<div class="m padding-inline-7">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
     <Hst.Variant title="Gigantic padding">
         <div class="container">
-        	<div class="m padding-block-8">Lorem ibsum.</div>
+        	<div class="m padding-inline-8">Lorem ibsum.</div>
         </div>
     </Hst.Variant>
 </Hst.Story>
 
 <style>
-	@import 'PaddingBlock.css';
+	@import 'PaddingInline.css';
 
 	.container {
 		display: grid;
@@ -67,13 +67,13 @@
         color: hsl(0, 0%, 0%);
 	}
 
-	.padding-block-0 { padding-block: var(--padding-block-0); }
-	.padding-block-1 { padding-block: var(--padding-block-1); }
-	.padding-block-2 { padding-block: var(--padding-block-2); }
-	.padding-block-3 { padding-block: var(--padding-block-3); }
-	.padding-block-4 { padding-block: var(--padding-block-4); }
-	.padding-block-5 { padding-block: var(--padding-block-5); }
-	.padding-block-6 { padding-block: var(--padding-block-6); }
-	.padding-block-7 { padding-block: var(--padding-block-7); }
-	.padding-block-8 { padding-block: var(--padding-block-8); }
+	.padding-inline-0 { padding-inline: var(--padding-inline-0); }
+	.padding-inline-1 { padding-inline: var(--padding-inline-1); }
+	.padding-inline-2 { padding-inline: var(--padding-inline-2); }
+	.padding-inline-3 { padding-inline: var(--padding-inline-3); }
+	.padding-inline-4 { padding-inline: var(--padding-inline-4); }
+	.padding-inline-5 { padding-inline: var(--padding-inline-5); }
+	.padding-inline-6 { padding-inline: var(--padding-inline-6); }
+	.padding-inline-7 { padding-inline: var(--padding-inline-7); }
+	.padding-inline-8 { padding-inline: var(--padding-inline-8); }
 </style>

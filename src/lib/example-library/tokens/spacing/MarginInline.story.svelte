@@ -4,7 +4,7 @@
 </script>
 
 <Hst.Story
-    title="Design tokens/Margins (inline)"
+    title="Example Library/Design tokens/Margins (inline)"
     layout={{ type: 'grid', width: '100%' }}
 >
     <Hst.Variant title="No margin">

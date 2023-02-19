@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Theme } from '@lib/tokens/color/Themes.types'
+    import type { Theme } from '@lib/example-library/tokens/color/Themes.types'
 
     export let theme: Theme = 'default'
 </script>

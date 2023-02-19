@@ -4,7 +4,7 @@
 </script>
 
 <Hst.Story
-    title="Design tokens/Themes"
+    title="Example Library/Design tokens/Themes"
     layout={{ type: 'grid', width: '100%' }}
 >
     <Hst.Variant title="Default theme">
