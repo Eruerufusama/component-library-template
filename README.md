@@ -80,4 +80,4 @@ Under the `repository` property in `package.json`, replace `[GITHUB_USERNAME]` w
 
 ## Configuration
 
-- `browserlist` - Configures target browsers for CSS-transpilation.
+- `browserlist` - Configures target browsers for CSS-transpilation. You can use [this site](https://browsersl.ist/) to help configure a list of browsers you want to support.
