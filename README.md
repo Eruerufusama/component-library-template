@@ -53,9 +53,10 @@ Under the `repository` property in `package.json`, replace `[GITHUB_USERNAME]` w
 
 ## Creating a new release of your library
 
-1. Create a new branch for your release.
-2. Make your changes.
-3. When commiting your changes, be sure to format your commit-message according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). This is needed for semantic-release to be able to create a new release.
+1. Setup CI as described above.
+2. Create a new branch for your release.
+3. Make your changes.
+4. When commiting your changes, be sure to format your commit-message according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). This is needed for semantic-release to be able to create a new release.
 
    > For example, if you are adding a new feature, your commit-message should be
    >
@@ -63,9 +64,9 @@ Under the `repository` property in `package.json`, replace `[GITHUB_USERNAME]` w
 
    Alternatively, you can use a CLI wizard like [commitizen](https://commitizen-tools.github.io/commitizen/) to help you format your commit-messages.
 
-4. Push your changes to Github.
-5. Create a pull-request to merge your changes into the `master` branch.
-6. Once you have merged your changes into the `master` branch, a new release will be created automatically, once the pipeline has finished running.
+5. Push your changes to Github.
+6. Create a pull-request to merge your changes into the `master` branch.
+7. Once you have merged your changes into the `master` branch, a new release will be created automatically, once the pipeline has finished running.
 
 ## Learn more about the tools used in this template
 
