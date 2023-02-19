@@ -7,8 +7,7 @@ import { resolve } from 'path'
 export default defineConfig({
 	plugins: [
 		svelte(),
-		lightningcss({ browserslist: ['last 2 versions', '> 0.2% in alt-EU', 'not dead'] }),
-
+		lightningcss(),
 	],
 	resolve: {
 		alias: {
