@@ -5,7 +5,6 @@ const removeMatchingFilesFromPackage = (filepath) => {
     '.story.svelte',
     '.story.md',
     '.test.ts',
-    '.types.ts',
   ]
 
   invalidFileEndings.forEach((invalidFileEnding) => {
