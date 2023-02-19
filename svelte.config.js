@@ -8,8 +8,8 @@ const removeMatchingFilesFromPackage = (filepath) => {
     '.types.ts',
   ]
 
-  invalidFileEndings.forEach((ending) => {
-    if (filepath.endsWith(ending)) {
+  invalidFileEndings.forEach((invalidFileEnding) => {
+    if (filepath.endsWith(invalidFileEnding)) {
       return false
     }
   })
