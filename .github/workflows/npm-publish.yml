@@ -49,7 +49,7 @@ jobs:
         run: 'pnpm install'
 
       - name: 'Install CI-packages'
-        run: 'pnpm add -D @semantic-release/changelog @semantic-release/git'
+        run: 'pnpm add -D @semantic-release/changelog @semantic-release/git lightningcss-cli'
 
       - name: 'Prepare package'
         run: 'pnpm package:build'
