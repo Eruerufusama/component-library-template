@@ -55,7 +55,7 @@
 </Hst.Story>
 
 <style>
-	@import 'PaddingInline.css';
+	@import 'Sizes.css';
 
 	.container {
 		display: grid;
@@ -67,13 +67,13 @@
         color: hsl(0, 0%, 0%);
 	}
 
-	.padding-inline-0 { padding-inline: var(--padding-inline-0); }
-	.padding-inline-1 { padding-inline: var(--padding-inline-1); }
-	.padding-inline-2 { padding-inline: var(--padding-inline-2); }
-	.padding-inline-3 { padding-inline: var(--padding-inline-3); }
-	.padding-inline-4 { padding-inline: var(--padding-inline-4); }
-	.padding-inline-5 { padding-inline: var(--padding-inline-5); }
-	.padding-inline-6 { padding-inline: var(--padding-inline-6); }
-	.padding-inline-7 { padding-inline: var(--padding-inline-7); }
-	.padding-inline-8 { padding-inline: var(--padding-inline-8); }
+	.padding-inline-0 { padding-inline: var(--size-inline-0); }
+	.padding-inline-1 { padding-inline: var(--size-inline-1); }
+	.padding-inline-2 { padding-inline: var(--size-inline-2); }
+	.padding-inline-3 { padding-inline: var(--size-inline-3); }
+	.padding-inline-4 { padding-inline: var(--size-inline-4); }
+	.padding-inline-5 { padding-inline: var(--size-inline-5); }
+	.padding-inline-6 { padding-inline: var(--size-inline-6); }
+	.padding-inline-7 { padding-inline: var(--size-inline-7); }
+	.padding-inline-8 { padding-inline: var(--size-inline-8); }
 </style>

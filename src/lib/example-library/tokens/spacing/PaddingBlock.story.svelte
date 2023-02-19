@@ -55,7 +55,7 @@
 </Hst.Story>
 
 <style>
-	@import 'PaddingBlock.css';
+	@import 'Sizes.css';
 
 	.container {
 		display: grid;
@@ -67,13 +67,13 @@
         color: hsl(0, 0%, 0%);
 	}
 
-	.padding-block-0 { padding-block: var(--padding-block-0); }
-	.padding-block-1 { padding-block: var(--padding-block-1); }
-	.padding-block-2 { padding-block: var(--padding-block-2); }
-	.padding-block-3 { padding-block: var(--padding-block-3); }
-	.padding-block-4 { padding-block: var(--padding-block-4); }
-	.padding-block-5 { padding-block: var(--padding-block-5); }
-	.padding-block-6 { padding-block: var(--padding-block-6); }
-	.padding-block-7 { padding-block: var(--padding-block-7); }
-	.padding-block-8 { padding-block: var(--padding-block-8); }
+	.padding-block-0 { padding-block: var(--size-block-0); }
+	.padding-block-1 { padding-block: var(--size-block-1); }
+	.padding-block-2 { padding-block: var(--size-block-2); }
+	.padding-block-3 { padding-block: var(--size-block-3); }
+	.padding-block-4 { padding-block: var(--size-block-4); }
+	.padding-block-5 { padding-block: var(--size-block-5); }
+	.padding-block-6 { padding-block: var(--size-block-6); }
+	.padding-block-7 { padding-block: var(--size-block-7); }
+	.padding-block-8 { padding-block: var(--size-block-8); }
 </style>

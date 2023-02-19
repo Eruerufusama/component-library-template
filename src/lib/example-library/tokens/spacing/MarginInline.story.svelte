@@ -55,7 +55,7 @@
 </Hst.Story>
 
 <style>
-	@import 'MarginInline.css';
+	@import 'Sizes.css';
 
 	.container {
 		display: grid;
@@ -68,13 +68,13 @@
         color: hsl(0, 0%, 0%);
 	}
 
-	.margin-inline-0 { margin-inline: var(--margin-inline-0); }
-	.margin-inline-1 { margin-inline: var(--margin-inline-1); }
-	.margin-inline-2 { margin-inline: var(--margin-inline-2); }
-	.margin-inline-3 { margin-inline: var(--margin-inline-3); }
-	.margin-inline-4 { margin-inline: var(--margin-inline-4); }
-	.margin-inline-5 { margin-inline: var(--margin-inline-5); }
-	.margin-inline-6 { margin-inline: var(--margin-inline-6); }
-	.margin-inline-7 { margin-inline: var(--margin-inline-7); }
-	.margin-inline-8 { margin-inline: var(--margin-inline-8); }
+	.margin-inline-0 { margin-inline: var(--size-inline-0); }
+	.margin-inline-1 { margin-inline: var(--size-inline-1); }
+	.margin-inline-2 { margin-inline: var(--size-inline-2); }
+	.margin-inline-3 { margin-inline: var(--size-inline-3); }
+	.margin-inline-4 { margin-inline: var(--size-inline-4); }
+	.margin-inline-5 { margin-inline: var(--size-inline-5); }
+	.margin-inline-6 { margin-inline: var(--size-inline-6); }
+	.margin-inline-7 { margin-inline: var(--size-inline-7); }
+	.margin-inline-8 { margin-inline: var(--size-inline-8); }
 </style>

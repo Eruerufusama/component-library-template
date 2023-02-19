@@ -55,7 +55,7 @@
 </Hst.Story>
 
 <style>
-	@import 'MarginBlock.css';
+	@import 'Sizes.css';
 
 	.container {
 		display: grid;
@@ -72,13 +72,13 @@
 		color: hsl(0, 0%, 0%);
 	}
 
-	.margin-block-0 { margin-block: var(--margin-block-0); }
-	.margin-block-1 { margin-block: var(--margin-block-1); }
-	.margin-block-2 { margin-block: var(--margin-block-2); }
-	.margin-block-3 { margin-block: var(--margin-block-3); }
-	.margin-block-4 { margin-block: var(--margin-block-4); }
-	.margin-block-5 { margin-block: var(--margin-block-5); }
-	.margin-block-6 { margin-block: var(--margin-block-6); }
-	.margin-block-7 { margin-block: var(--margin-block-7); }
-	.margin-block-8 { margin-block: var(--margin-block-8); }
+	.margin-block-0 { margin-block: var(--size-block-0); }
+	.margin-block-1 { margin-block: var(--size-block-1); }
+	.margin-block-2 { margin-block: var(--size-block-2); }
+	.margin-block-3 { margin-block: var(--size-block-3); }
+	.margin-block-4 { margin-block: var(--size-block-4); }
+	.margin-block-5 { margin-block: var(--size-block-5); }
+	.margin-block-6 { margin-block: var(--size-block-6); }
+	.margin-block-7 { margin-block: var(--size-block-7); }
+	.margin-block-8 { margin-block: var(--size-block-8); }
 </style>
